@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.urls import reverse
 from .models import Image, Category
-
+from PIL import Image
 
 class GalleryViewsTests(TestCase):
     def setUp(self):
